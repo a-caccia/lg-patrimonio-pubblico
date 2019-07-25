@@ -170,6 +170,18 @@ La seguente serie di formati aperti è parte dello standard OASIS ODF:
 """""""""""""""""""""""""""""""""""""""""""""""""
 È un formato aperto creato da Adobe per la rappresentazione di documenti contenenti testo e immagini che sia indipendente dalla piattaforma di lettura (applicativo, sistema operativo e hardware). È stato standardizzato dall’ISO (ISO/IEC 32000-1:2008) con una serie di formati differenti, ognuno avente una propria prerogativa (e.g., PDF/UA per l’accessibilità, PDF/H per documenti sanitari, PDF/A per l’archiviazione, ecc.).  Si noti che rilasciare dati secondo tale formato limita fortemente il riutilizzo dei dati stessi in quanto l'intervento umano richiesto per la loro elaborazione è molto elevato (dati rilasciati in formato PDF con una licenza aperta rappresentano solo il primo livello del modello dei dati aperti).
 
-`Akoma Ntoso <http://www.akomantoso.org/documentation/technical-documentation/>`__
+`Akoma Ntoso <https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=legaldocml/>`__
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-È un linguaggio basato su XML per la rappresentazione di documenti giuridici. È in fase di approvazione presso il consorzio OASIS ed è utilizzato dal Parlamento Europeo e dalla Commissione Europea come standard documentale per i documenti legislativi, giuridici e allegati tecnici.
+È una specifca tecnica pubblicata da OASIS che definisce un linguaggio basato su XML (LegalDocumentXML) per:
+ + la rappresentazione tecnologicamente neutrale di documenti parlamentari, legislativi e giudiziari,
+ + l'interscambio tra istituzioni in qualsiasi parte del mondo, e 
+ + la creazione di un modello comune di dati e metadati che consente di condividere ed estendere l'esperienza, le competenze e gli strumenti di tutti i pari partecipanti, tribunali, parlamenti, assemblee, congressi e rami amministrativi dei governi.
+La specifica mira a fornire un formato per la conservazione a lungo termine e per l'accesso ai documenti parlamentari, legislativi e giudiziari che consenta la ricerca, l'interpretazione e la visualizzazione dei documenti.
+Si compone delle seguenti specifiche:
+ + Akoma Ntoso Version 1.0 Part 1: XML Vocabulary. Edited by Monica Palmirani, Roger Sperberg, Grant Vergottini, and Fabio Vitali. 29 August 2018. OASIS Standard. http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part1-vocabulary/akn-core-v1.0-os-part1-vocabulary.html
+ + Akoma Ntoso Version 1.0. Part 2: Specifications. Edited by Fabio Vitali, Monica Palmirani, Roger Sperberg, and Véronique Parisse. 29 August 2018. OASIS Standard. http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/akn-core-v1.0-os-part2-specs.html
+ + Akoma Ntoso Naming Convention Version 1.0. Edited by Fabio Vitali, Monica Palmirani, and Véronique Parisse. 21 February 2019. OASIS Standard. https://docs.oasis-open.org/legaldocml/akn-nc/v1.0/os/akn-nc-v1.0-os.html
+ + Akoma Ntoso Media Type Version 1.0. Edited by Fabio Vitali and Monica Palmirani. 25 March 2015. OASIS Committee Specification Draft 01 / Public Review Draft 01. http://docs.oasis-open.org/legaldocml/akn-media/v1.0/csprd01/akn-media-v1.0-csprd01.html
+Nella parte 1, capitolo 7, vengono definiti due livelli di conformità alla specifica.
+
+
